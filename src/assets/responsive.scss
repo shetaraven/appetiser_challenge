@@ -1,0 +1,113 @@
+@media (max-width: 769px) and (min-width: 300px){
+    #success_page{
+        background: red;
+        .middle_container{
+            width: 70%!important;
+        }
+    }
+
+    #login_page{
+        background: red;
+        .middle_container{
+            width: 70%!important;
+        }
+        #login_form{
+            margin-top: 10vw!important;
+            .signup_btn{
+                font-size: 2.5vw;
+                margin:4vw auto 0
+            }
+        }
+    }
+
+    #verification_page{
+        .middle_container{
+            display: block!important;
+            .left_half{
+                width: 100%!important;
+                height: 20vh!important;
+                border-radius: 5px 5px 0 0!important;
+                img{
+                    width: 35%!important;
+                }
+            }
+            .right_half{
+                width: 100%!important;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    #registration_page{
+        .middle_container{
+            display: block!important;
+            width: 80%!important;
+            .left_half{
+                width: 100%!important;
+                height: 20vh!important;
+                border-radius: 5px 5px 0 0!important;
+                img{
+                    width: 35%!important;
+                }
+            }
+            .right_half{
+                width: 100%!important;
+                box-sizing: border-box;
+                max-height: 70vh;
+                overflow: auto;
+                .login_btn{
+                    font-size: 2.5vw!important;
+                }
+            }
+        }
+    }
+
+    .title{
+        font-size: 7vw!important;
+    }
+    .subtitle{
+        font-size: 3vw!important;
+    }
+
+    .input_group {
+        margin-top: 4vw!important;
+        label{
+            font-size: 2.5vw!important;
+            top: -20px!important;
+        }
+        input{
+            font-size: 2.8vw!important;
+            padding: 1vw 0!important;
+        }
+        span{
+            font-size: 2.5vw!important;
+        }
+    }
+
+    .global_btn.onclick {
+        width: 10vw!important;
+    }
+    button.global_btn{
+        height: 10vw!important;
+        width: 20vw!important;
+        font-size: 3vw!important;
+    }
+}
+
+@media (max-width: 415px) and (min-width: 300px){
+    #verification_page{
+        .middle_container{
+            width: 80%!important;
+        }
+    }
+
+    #registration_page{
+        .right_half{
+            padding: 20px!important;
+        }
+    }
+
+    #notification{
+        font-size: 2vw!important;
+    }
+}
